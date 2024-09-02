@@ -1,5 +1,4 @@
 read -p "Enter directory name:" dir
- read -p "Enter filename:" file
  source_dir=/home/ec2-user/shell-practice/example
 if [ -d $dir ]
 then
