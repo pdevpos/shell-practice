@@ -4,6 +4,5 @@ then
   echo "$dir directory exists"
 else
   echo "$dir directory not exists"
-
+  exit 1
 fi
-echo "exit1"
