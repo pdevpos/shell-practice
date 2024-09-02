@@ -1,8 +1,8 @@
-read -p "Enter filename:"file
+read -p "Enter filename:" file
 if [ -f $file ]
 then
-  echo "file exists"
+  echo "$file file exists"
 else
-  echo "file doesn't exists"
+  echo "$file file doesn't exists"
   exit 1
 fi
