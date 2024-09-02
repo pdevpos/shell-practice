@@ -1,6 +1,7 @@
 read -p "Enter directory name:" dir
  read -p "Enter filename:" file
- FILE=$(find . -name "*.sh")
+ source_dir=/home/ec2-user/shell-practice
+ FILE=$(find $source_dir -name "*.sh")
 if [ -d $dir ]
 then
   echo "$dir directory exists"
