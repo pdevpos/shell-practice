@@ -1,2 +1,2 @@
 read  messg
-echo $messg
+echo "message:"$messg
