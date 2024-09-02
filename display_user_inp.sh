@@ -1,0 +1,2 @@
+read  messg
+echo $messg
