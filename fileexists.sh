@@ -1,6 +1,6 @@
 read -p "Enter directory name:" dir
  read -p "Enter filename:" file
- FILE=$(find . -name $file)
+ FILE=$(find . -name "*.sh")
 if [ -d $dir ]
 then
   echo "$dir directory exists"
