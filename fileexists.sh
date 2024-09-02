@@ -1,10 +1,10 @@
 read -p "Enter directory name:" dir
-
+ read -p "Enter filename:" file
+ FILE=$(find . -name $file)
 if [ -d $dir ]
 then
   echo "$dir directory exists"
-  read -p "Enter filename:" file
-  if [ -f $file ]
+  if [ -f $FILE ]
   then
     echo "file exists"
   else
