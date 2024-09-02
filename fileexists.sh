@@ -10,5 +10,5 @@ fi
 FILES=$(find $source_dir -name "*.sh")
 #echo "files:::"$FILES
 while read -r line; do
-  echo "read line by line : $line"
+  echo -e "read line by line : $line\n"
 done <<< "print files $FILES"
