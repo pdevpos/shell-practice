@@ -1,8 +1,9 @@
 read -p "Enter directory name:" dir
-read -p "Enter filename:" file
+
 if [ -d $dir ]
 then
   echo "$dir directory exists"
+  read -p "Enter filename:" file
   if [ -f $file ]
   then
     echo "file exists"
