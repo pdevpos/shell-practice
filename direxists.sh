@@ -1,8 +1,8 @@
-read -p "Enter directory name:"dir
+read -p "Enter directory name:" dir
 if [ -d $dir ]
 then
-  echo "directory exists"
+  echo "$dir directory exists"
 else
-  echo "directory not exists"
+  echo "$dir directory not exists"
   exit 1
 fi
