@@ -6,7 +6,8 @@ usage()
 #    echo "call usage"
 #    usage
 #fi
-if [ $# -lt 1 ]; then
-    echo "Usage: $0 arg1 arg2"
-    exit 1
-fi
+echo $#
+#if [ $# -lt 0 ]; then
+#    echo "Usage: $0 arg1 arg2"
+#    exit 1
+#fi
